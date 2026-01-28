@@ -1,0 +1,6 @@
+Day 2 git practice
+
+Git tracks changes
+Git helps collaboration
+Git enables rollback
+
