@@ -1,0 +1,106 @@
+“DevOps improves speed and reliability through automation, collaboration, and monitoring.”
+
+Linux commands
+Open a terminal (Linux / Mac / WSL).
+
+1️⃣ Where am I?
+pwd
+
+
+Shows current directory.
+
+2️⃣ What’s here?
+ls
+ls -l
+ls -a
+
+
+-l → long details
+
+-a → hidden files
+
+Think: containers, servers, cloud… all start here.
+
+3️⃣ Move Around
+cd /
+cd ~
+cd ..
+
+
+DevOps engineers live in servers. Navigation is oxygen.
+
+4️⃣ Create & Delete
+mkdir devops
+cd devops
+touch day1.txt
+rm day1.txt
+
+Now create this again:
+
+touch day1.txt
+
+5️⃣ Read & Write Files
+echo "My DevOps journey starts today" > day1.txt
+cat day1.txt
+
+
+> overwrites
+>> appends
+
+
+Part 3: Permissions (Very Important)
+
+Check permissions:
+
+ls -l
+
+
+You’ll see something like:
+
+-rw-r--r--
+
+
+Breakdown:
+
+r → read
+
+w → write
+
+x → execute
+
+Change permission:
+
+chmod 644 day1.txt
+
+Interview gold:
+
+“Linux permissions control access for user, group, and others.”
+
+Part 4: Processes & System Awareness
+
+Check running processes:
+
+ps
+top
+
+
+Stop a process (concept only for now):
+
+kill <pid>
+
+
+DevOps monitors systems before users complain.
+
+🧠 Part 5: How This Connects to DevOps
+
+Everything you learned today is used in:
+
+Docker containers
+
+Kubernetes pods
+
+CI/CD servers
+
+Cloud VMs
+
+If Linux is weak, DevOps collapses.
