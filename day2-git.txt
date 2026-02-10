@@ -7,3 +7,4 @@ Git enables rollback
 This change is from dev branch.
 
 bad  change
+hello
